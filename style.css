@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: lightgrey;
 }
 
 h1 {
@@ -17,9 +17,9 @@ h1 {
 #master {
     margin: auto;
     width: 50%;
-    height: 100%;
     border: black 2px solid;
     padding: 10px;
+    overflow: auto;
 }
 
 
@@ -31,4 +31,16 @@ h1 {
 #footer {
     margin: auto;
     width: 50%;
+}
+
+img {
+    height: 12px;
+    width: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italics {
+    font-style: italic;
 }
